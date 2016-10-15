@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  text-align: center;
+}
+
+.avatar-img {
+  width: 200px;
+  border-radius: 100%;
+}
