@@ -1,3 +1,13 @@
+@font-face {
+  src: url("./fonts/coolvetica_rg.otf");
+  font-family: "Coolvetica";
+}
+
+@font-face {
+  src: url("./fonts/Goku.ttf");
+  font-family: "Goku";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +16,11 @@
 
 body {
   text-align: center;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.title {
+  font-family: "Goku", sans-serif;
 }
 
 .avatar-img {
