@@ -30,5 +30,13 @@ body {
 }
 
 /* Fact */
+.subtitle::after {
+  content: ")";
+}
+
+.subtitle::before {
+  content: "(";
+}
+
 .reveal {
 }
