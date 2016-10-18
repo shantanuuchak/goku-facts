@@ -17,13 +17,18 @@
 body {
   text-align: center;
   font-family: "Coolvetica", sans-serif;
+  background: #faeddc;
 }
 
-.title {
+.heading {
   font-family: "Goku", sans-serif;
 }
 
 .avatar-img {
   width: 200px;
   border-radius: 100%;
+}
+
+/* Fact */
+.reveal {
 }
