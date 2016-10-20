@@ -22,7 +22,7 @@
 body {
   text-align: center;
   font-family: "Coolvetica", sans-serif;
-  background: #faeddc;
+  background: var(--goku-light);
 }
 
 .heading {
@@ -36,7 +36,19 @@ body {
 
 /* Fact */
 .fact {
-  border: 3px solid;
+  margin: 100px auto;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 23px;
+  color: var(--goku-dark);
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .subtitle::after {
@@ -52,4 +64,17 @@ body {
   width: 400px;
   height: 400px;
   background-image: url("images/avatar.png");
+  border: 3px solid var(--goku-dark);
+}
+
+/* Reveal on Hover */
+.a1:hover {
+}
+.a2:hover {
+}
+.a3:hover {
+}
+.a4:hover {
+}
+.a5:hover {
 }
