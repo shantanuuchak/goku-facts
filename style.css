@@ -25,6 +25,10 @@ body {
   background: var(--goku-light);
 }
 
+header {
+  margin: 100px auto;
+}
+
 .heading {
   font-family: "Goku", sans-serif;
 }
@@ -36,7 +40,7 @@ body {
 
 /* Fact */
 .fact {
-  margin: 60px auto;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -61,9 +65,12 @@ body {
 
 .reveal {
   margin: 0 auto;
-  width: 400px;
+  width: 90;
   height: 400px;
   background-image: url("images/avatar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border: 3px solid var(--goku-dark);
 }
 
