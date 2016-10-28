@@ -21,9 +21,10 @@
 }
 
 body {
+  color: var(--goku-dark);
+  background: var(--goku-light);
   text-align: center;
   font-family: "Coolvetica", sans-serif;
-  background: var(--goku-light);
 }
 
 header {
@@ -51,7 +52,7 @@ header {
 
 .subtitle {
   font-size: 23px;
-  color: var(--goku-dark);
+  color: var(--goku-fire);
   margin-top: 0;
   margin-bottom: 8px;
 }
