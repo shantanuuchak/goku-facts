@@ -78,12 +78,17 @@ header {
 
 /* Reveal on Hover */
 .a1:hover {
+  background-image: url("./images/g1.gif");
 }
 .a2:hover {
+  background-image: url("./images/g2.gif");
 }
 .a3:hover {
+  background-image: url("./images/g3.gif");
 }
 .a4:hover {
+  background-image: url("./images/g4.gif");
 }
 .a5:hover {
+  background-image: url("./images/g5.gif");
 }
