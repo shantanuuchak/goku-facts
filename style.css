@@ -38,6 +38,7 @@ header {
 .avatar-img {
   width: 200px;
   border-radius: 100%;
+  border: 5px solid var(--goku-dark);
 }
 
 /* Fact */
@@ -73,22 +74,23 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 3px solid var(--goku-dark);
+  border: 5px solid var(--goku-fire);
+  cursor: pointer;
 }
 
 /* Reveal on Hover */
-.a1:hover {
+.g1:hover {
   background-image: url("./images/g1.gif");
 }
-.a2:hover {
-  background-image: url("./images/g2.gif");
+.g2:hover {
+  background-image: url("./images/g2.webp");
 }
-.a3:hover {
-  background-image: url("./images/g3.gif");
+.g3:hover {
+  background-image: url("./images/g3.webp");
 }
-.a4:hover {
-  background-image: url("./images/g4.gif");
+.g4:hover {
+  background-image: url("./images/g4.webp");
 }
-.a5:hover {
-  background-image: url("./images/g5.gif");
+.g5:hover {
+  background-image: url("./images/g5.webp");
 }
